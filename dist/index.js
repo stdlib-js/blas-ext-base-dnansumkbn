@@ -1,9 +1,9 @@
-"use strict";var q=function(n,r){return function(){return r||n((r={exports:{}}).exports,r),r.exports}};var b=q(function(D,l){
-var o=require('@stdlib/math-base-assert-is-nan/dist'),c=require('@stdlib/math-base-special-abs/dist');function E(n,r,t){var a,e,u,i,v,s;if(n<=0)return 0;if(n===1||t===0)return o(r[0])?0:r[0];for(t<0?e=(1-n)*t:e=0,a=0,v=0,s=0;s<n;s++)u=r[e],o(u)===!1&&(i=a+u,c(a)>=c(u)?v+=a-i+u:v+=u-i+a,a=i),e+=t;return a+v}l.exports=E
-});var y=q(function(F,k){
-var p=require('@stdlib/math-base-assert-is-nan/dist'),d=require('@stdlib/math-base-special-abs/dist');function O(n,r,t,a){var e,u,i,v,s,f;if(n<=0)return 0;if(n===1||t===0)return p(r[a])?0:r[a];for(u=a,e=0,s=0,f=0;f<n;f++)i=r[u],p(i)===!1&&(v=e+i,d(e)>=d(i)?s+=e-v+i:s+=i-v+e,e=v),u+=t;return e+s}k.exports=O
-});var R=q(function(G,x){
-var g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=b(),h=y();g(j,"ndarray",h);x.exports=j
-});var w=require("path").join,z=require('@stdlib/utils-try-require/dist'),A=require('@stdlib/assert-is-error/dist'),B=R(),m,_=z(w(__dirname,"./native.js"));A(_)?m=B:m=_;module.exports=m;
+"use strict";var f=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var q=f(function(D,c){
+var d=require('@stdlib/math-base-assert-is-nan/dist'),m=require('@stdlib/math-base-special-abs/dist');function R(a,r,n,x){var e,u,i,s,t,v;if(e=0,a<=0)return e;if(u=x,n===0)return d(r[u])?e:r[u]*a;for(t=0,v=0;v<a;v++)i=r[u],d(i)===!1&&(s=e+i,m(e)>=m(i)?t+=e-s+i:t+=i-s+e,e=s),u+=n;return e+t}c.exports=R
+});var p=f(function(F,b){
+var _=require('@stdlib/strided-base-stride2offset/dist'),E=q();function O(a,r,n){return E(a,r,n,_(a,n))}b.exports=O
+});var l=f(function(G,k){
+var g=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),y=p(),h=q();g(y,"ndarray",h);k.exports=y
+});var w=require("path").join,z=require('@stdlib/utils-try-require/dist'),A=require('@stdlib/assert-is-error/dist'),B=l(),o,j=z(w(__dirname,"./native.js"));A(j)?o=B:o=j;module.exports=o;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
