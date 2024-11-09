@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-09)
 
 <section class="features">
 
@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`cc6362b`](https://github.com/stdlib-js/stdlib/commit/cc6362bffb6dbff54c3dd69257dfcb2dd7d372f4) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn` [(#3051)](https://github.com/stdlib-js/stdlib/pull/3051) _(by Muhammad Haris)_
 -   [`371a494`](https://github.com/stdlib-js/stdlib/commit/371a49427e62050eb23947678b66aa529ee3890b) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumkbn` [(#2996)](https://github.com/stdlib-js/stdlib/pull/2996) _(by Muhammad Haris, Athan Reines)_
 
 </details>
