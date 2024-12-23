@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`cc6362b`](https://github.com/stdlib-js/stdlib/commit/cc6362bffb6dbff54c3dd69257dfcb2dd7d372f4) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn` [(#3051)](https://github.com/stdlib-js/stdlib/pull/3051) _(by Muhammad Haris)_
 -   [`371a494`](https://github.com/stdlib-js/stdlib/commit/371a49427e62050eb23947678b66aa529ee3890b) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumkbn` [(#2996)](https://github.com/stdlib-js/stdlib/pull/2996) _(by Muhammad Haris, Athan Reines)_
 
@@ -47,10 +48,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
@@ -75,7 +77,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`ceb4943`](https://github.com/stdlib-js/stdlib/commit/ceb494351d42c2505e559a2c8aad9a120c76d0db) - **docs:** remove comments _(by Athan Reines)_
 -   [`3080f03`](https://github.com/stdlib-js/stdlib/commit/3080f032a477cbd046b4201d7ffdd407c9d93816) - **chore:** fix by filling arrays with NaNs again _(by Philipp Burckhardt)_
--   [`a9016c6`](https://github.com/stdlib-js/stdlib/commit/a9016c65a013cbabcf819c0733c05c59618d198c) - **refactor:** update `blas/ext/base/dnansumkbn` to follow current project conventions _(by Suraj kumar)_
+-   [`a9016c6`](https://github.com/stdlib-js/stdlib/commit/a9016c65a013cbabcf819c0733c05c59618d198c) - **refactor:** update `blas/ext/base/dnansumkbn` to follow current project conventions _(by Suraj Kumar)_
 
 </details>
 
@@ -91,7 +93,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Philipp Burckhardt
--   Suraj kumar
+-   Suraj Kumar
 
 </section>
 
