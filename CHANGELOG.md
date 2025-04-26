@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-25)
+## Unreleased (2025-04-26)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`446ce07`](https://github.com/stdlib-js/stdlib/commit/446ce073c82847d889c7b2e43e0ce3010a0767f9) - **test:** add zeros tests _(by Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`cc6362b`](https://github.com/stdlib-js/stdlib/commit/cc6362bffb6dbff54c3dd69257dfcb2dd7d372f4) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn` [(#3051)](https://github.com/stdlib-js/stdlib/pull/3051) _(by Muhammad Haris)_
