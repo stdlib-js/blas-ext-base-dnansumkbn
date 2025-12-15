@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-12-15)
 
 <section class="features">
 
@@ -15,6 +15,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`149aa3c`](https://github.com/stdlib-js/stdlib/commit/149aa3c8f30ac20953aca48e5497d82747d29008) - use correct return value
+-   [`3612259`](https://github.com/stdlib-js/stdlib/commit/3612259d5a0558d6906748993d061f501bfcdd7a) - update implementation to preserve signed zeros
+-   [`432b26d`](https://github.com/stdlib-js/stdlib/commit/432b26dbda2336b72babe8236c77fab0e066012c) - address pointer increment bug
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -34,6 +46,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`2eb2d69`](https://github.com/stdlib-js/stdlib/commit/2eb2d69bab3ee45938527b0ee013b368429331d6) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnansumkbn` [(#8934)](https://github.com/stdlib-js/stdlib/pull/8934) _(by Krishna Awasthi)_
+-   [`149aa3c`](https://github.com/stdlib-js/stdlib/commit/149aa3c8f30ac20953aca48e5497d82747d29008) - **fix:** use correct return value _(by Athan Reines)_
+-   [`3612259`](https://github.com/stdlib-js/stdlib/commit/3612259d5a0558d6906748993d061f501bfcdd7a) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
+-   [`432b26d`](https://github.com/stdlib-js/stdlib/commit/432b26dbda2336b72babe8236c77fab0e066012c) - **fix:** address pointer increment bug _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`446ce07`](https://github.com/stdlib-js/stdlib/commit/446ce073c82847d889c7b2e43e0ce3010a0767f9) - **test:** add zeros tests _(by Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
@@ -50,9 +66,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Krishna Awasthi
 -   Muhammad Haris
 -   Philipp Burckhardt
 
