@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-15)
+## 0.3.0 (2026-01-29)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`2eb2d69`](https://github.com/stdlib-js/stdlib/commit/2eb2d69bab3ee45938527b0ee013b368429331d6) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnansumkbn` [(#8934)](https://github.com/stdlib-js/stdlib/pull/8934) _(by Krishna Awasthi)_
 -   [`149aa3c`](https://github.com/stdlib-js/stdlib/commit/149aa3c8f30ac20953aca48e5497d82747d29008) - **fix:** use correct return value _(by Athan Reines)_
 -   [`3612259`](https://github.com/stdlib-js/stdlib/commit/3612259d5a0558d6906748993d061f501bfcdd7a) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
